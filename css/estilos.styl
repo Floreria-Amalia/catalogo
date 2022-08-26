@@ -174,16 +174,31 @@ body
             font-family: 'Source Serif 4';
             
     footer        
+        position: fixed
         display: flex
         flex-direction: column
         align-items: center
         
         width: 100%
-        position: fixed
+        
         bottom: 0
-        a
-            text-decoration: none
+        .llamar
+            display: flex
             position: absolute
-            color: white
+            bottom: 5px
+            align-items: center
+            
+            p
+                color rgba(255, 208, 0, 0.971)
+                
+            img
+                width: 20px
+                height: 20px
+                margin: 0 5px
+            a
+                text-decoration: none                            
+                color: white
+                font-size: 18px                
         img
             width: 100%
+            
